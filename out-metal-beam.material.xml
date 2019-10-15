@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<material fx="physical-blend.fx" surfaceType="metal-sheet-bullet-effect">
+	<layers>
+		<layer name="Base Layer 1">
+			<layerParams>
+				<features>
+					<feature name="ENABLE_LAYER_01"/>
+					<feature name="LAYER_01_BASE_COLOR"/>
+					<feature name="LAYER_01_BASE_COLOR_TEXTURE"/>
+					<feature name="LAYER_01_BASE_COLOR_ADJUST"/>
+					<feature name="LAYER_01_BASE_COLOR_TINT"/>
+					<feature name="LAYER_01_BASE_COLOR_BRIGHTNESS"/>
+					<feature name="LAYER_01_NORMAL"/>
+					<feature name="LAYER_01_ROUGHNESS"/>
+				</features>
+				<parameters>
+					<parameter name="g_baseColorTint01" value="0.796, 0.796, 0.796"/>
+					<parameter name="g_baseColorBrightness01" value="1.0"/>
+					<parameter name="g_roughness01" value="1"/>
+				</parameters>
+				<texturesets>
+					<textureset guid="5763d9af-e5d4-4e75-9ab5-9a9048cfb0ec" name="default">
+						<texture filename="art/t1/levels/outskirts/textures/metal/out-metal-trim-color.tga" isUsed="true" mergedTextureIndex="-1" name="g_tNdFetchBaseColor01Map" prefilterProfile="" sizeProfile="game"/>
+						<texture filename="art/t1/levels/outskirts/textures/metal/out-metal-trim-normal-shared_normal_1.tga" isUsed="true" name="g_tNdFetchNormal01Map" sizeProfile="game"/>
+					</textureset>
+				</texturesets>
+			</layerParams>
+		</layer>
+		<layer name="Base Layer 2">
+			<layerParams>
+				<features>
+					<feature name="ENABLE_LAYER_02"/>
+					<feature name="LAYER_02_VERTEX_LINEAR_BLEND"/>
+					<feature name="LAYER_02_TEXTURE_THRESHOLD_BLEND"/>
+					<feature name="LAYER_02_BORDER_BLEND"/>
+					<feature name="LAYER_02_BORDER_BLEND_SOLID_COLOR"/>
+					<feature name="LAYER_02_BASE_COLOR"/>
+					<feature name="LAYER_02_BASE_COLOR_TEXTURE"/>
+					<feature name="LAYER_02_BASE_COLOR_ADJUST"/>
+					<feature name="LAYER_02_BASE_COLOR_TINT"/>
+					<feature name="LAYER_02_BASE_COLOR_BRIGHTNESS"/>
+					<feature name="LAYER_02_ROUGHNESS"/>
+				</features>
+				<parameters>
+					<parameter name="g_blendSoftness02" value="0"/>
+					<parameter name="g_borderBlendStrength02" value=".2"/>
+					<parameter name="g_borderBlendSolidColor02" value="0.635, 0.584, 0.584"/>
+					<parameter name="g_baseColorTint02" value="1, 1, 1"/>
+					<parameter name="g_baseColorBrightness02" value="1.0"/>
+					<parameter name="g_roughness02" value="1"/>
+				</parameters>
+				<texturesets>
+					<textureset guid="5763d9af-e5d4-4e75-9ab5-9a9048cfb0ec" name="default">
+						<texture filename="art/t1/levels/outskirts/textures/metal/out-metal-trim-normal-shared_1_b.tga" isUsed="true" name="g_tNdFetchThreshold02Map" sizeProfile="game"/>
+						<texture filename="art/t1/levels/outskirts/textures/metal/out-metal-trim-color.tga" isUsed="true" mergedTextureIndex="-1" name="g_tNdFetchBaseColor02Map" prefilterProfile="" sizeProfile="game"/>
+					</textureset>
+				</texturesets>
+			</layerParams>
+		</layer>
+	</layers>
+	<presets/>
+	<features/>
+	<parameters/>
+	<texturesets>
+		<textureset guid="5763d9af-e5d4-4e75-9ab5-9a9048cfb0ec" name="default"/>
+	</texturesets>
+</material>
